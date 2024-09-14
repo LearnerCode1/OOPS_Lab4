@@ -93,7 +93,7 @@ class Car extends Vehicle{
     }
     
     public void viewCarDetails(){
-        display();
+        super.display();
         System.out.println(this.routeID);
     }
 }
